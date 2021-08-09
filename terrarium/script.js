@@ -12,7 +12,30 @@ dragElement(document.getElementById('plant11'));
 dragElement(document.getElementById('plant12'));
 dragElement(document.getElementById('plant13'));
 dragElement(document.getElementById('plant14'));
+// var d=doubleClickElement(document.getElementById('plant14'));
+// d;
+// d;
 
+// function doubleClickElement(terrariumElement){
+
+//     terrariumElement.ondblclick =pointerDoubleClick;
+//     function pointerDoubleClick(e){
+//         e.preventDefault();
+//         console.log(e);
+      
+     
+//             terrariumElement.style.left=terrariumElement.offsetLeft+15+"px";
+//             console.log(terrariumElement.offsetLeft+"this is height");
+    
+        
+        
+        
+//     }
+
+    
+    
+    
+// }
 
 
 /*"A closure is the combination of a function bundled together (enclosed) 
@@ -27,6 +50,7 @@ function dragElement(terrariumElement) {
 		pos3 = 0,
 		pos4 = 0;
     terrariumElement.onpointerdown = pointerDrag;
+ 
     function pointerDrag(e) {
         e.preventDefault();
         console.log(e);
